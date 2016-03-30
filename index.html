@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  
+    <div class="z-depth-2" id="main">
+        <div class="row" style="padding: 50px !important;">
+            <div class="input-field col s12">
+                <input id="name" type="text" class="validate">
+                <label for="name">Name</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="organization" type="text" class="validate">
+                <label for="organization">Organization</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="contact_number" type="text" class="validate">
+                <label for="contact_number">Contact Number</label>
+            </div>
+            <div class="input-field col s12 center">
+                <a class="waves-effect waves-light btn blue" id="submit">Submit</a>
+            </div>
+        </div>
+        <div class="z-depth-2" id="items">
+            <ul class="collection"></ul>
+        </div>
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+  </body>
+</html>
